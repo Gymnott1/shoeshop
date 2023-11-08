@@ -1,0 +1,87 @@
+.embla {
+  min-height: 250px;
+  color: #333;
+}
+.feedback-container {
+ color: #222;
+}
+.content p{
+  color: #222;
+}
+ 
+.feedback-container {
+  color: #222;
+}
+.feed-prev p{
+  color: #222;
+  font-size: 20px;
+}
+.avatar {
+  flex: 1 0 50px;
+  width: 50px;
+  height: 50px;
+  background: #ccc;
+  border-radius: 50%;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px;
+}
+
+/* Your existing styles for the star */
+.star {
+  color: gold; /* Set the star color to gold or any other color you prefer */
+  font-size: 24px; /* Adjust the size of the star as needed */
+  margin-right: 5px; /* Add some spacing between stars */
+}
+
+/* Keyframe animation for the star shine effect */
+@keyframes starShine {
+  0% {
+    opacity: 0.6; /* Lower opacity at the start */
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1; /* Higher opacity in the middle */
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 0.6; /* Lower opacity at the end */
+    transform: scale(1);
+  }
+}
+
+/* Apply the animation to the star */
+.star.shine {
+  animation: starShine 1s infinite; /* Adjust the animation duration as needed */
+}
+
+
+@media (max-width: 700px) {
+  .feed-prev, .feed-imgs{
+    display: none;
+  }
+
+  
+}
+
+@media (max-width: 1054px) {
+  .feed-imgs{
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+ 
+  .embla {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+}
+
+

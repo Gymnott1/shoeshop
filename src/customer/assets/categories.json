@@ -1,0 +1,102 @@
+[
+    {
+      "id": 1,
+      "name": "Hightop Basketball Sneakers",
+      "image1": "https://images-na.ssl-images-amazon.com/images/I/41Mj9g4dOQL.SS700.jpg",
+      "image2": "https://insidescience.org/sites/default/files/sites/all/default/files/highsandlows_full.jpg",
+      "link": "/sneakers"
+    },
+    {
+      "id": 2,
+      "name": "Jordan",
+      "image1": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-7-trophy-room-wallpaper-preview.jpg",
+      "image2": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-1-low-mystic-navy-wallpaper-preview.jpg",
+      "link": "/boots"
+    },
+    {
+      "id": 3,
+      "name": "Sneakers",
+      "image1": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-1-brotherhood-wallpaper-preview.jpg",
+      "image2": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-1-lost-and-found-preview.jpg",
+      "link": "/sandals"
+    },
+    {
+      "id": 4,
+      "name": "Nike",
+      "image1": "https://www.sneakerhdwallpapers.com/wallpapers/2023/jordan-1-craft-celadon-wallpaper-preview.jpg",
+      "image2": "https://www.sneakerhdwallpapers.com/wallpapers/2023/kd3-easy-money-wallpaper-preview.jpg",
+      "link": "/sneakers"
+    },
+    {
+      "id": 5,
+      "name": "Jordan",
+      "image1": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-7-trophy-room-wallpaper-preview.jpg",
+      "image2": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-1-low-mystic-navy-wallpaper-preview.jpg",
+      "link": "/boots"
+    },
+    {
+      "id": 6,
+      "name": "Sneakers",
+      "image1": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-1-brotherhood-wallpaper-preview.jpg",
+      "image2": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-1-lost-and-found-preview.jpg",
+      "link": "/sandals"
+    },
+    {
+      "id": 7,
+      "name": "Nike",
+      "image1": "https://www.sneakerhdwallpapers.com/wallpapers/2023/jordan-1-craft-celadon-wallpaper-preview.jpg",
+      "image2": "https://www.sneakerhdwallpapers.com/wallpapers/2023/kd3-easy-money-wallpaper-preview.jpg",
+      "link": "/sneakers"
+    },
+    {
+      "id": 8,
+      "name": "Jordan",
+      "image1": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-7-trophy-room-wallpaper-preview.jpg",
+      "image2": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-1-low-mystic-navy-wallpaper-preview.jpg",
+      "link": "/boots"
+    },
+    {
+      "id": 9,
+      "name": "Sneakers",
+      "image1": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-1-brotherhood-wallpaper-preview.jpg",
+      "image2": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-1-lost-and-found-preview.jpg",
+      "link": "/sandals"
+    },
+    {
+      "id": 10,
+      "name": "Nike",
+      "image1": "https://www.sneakerhdwallpapers.com/wallpapers/2023/jordan-1-craft-celadon-wallpaper-preview.jpg",
+      "image2": "https://www.sneakerhdwallpapers.com/wallpapers/2023/kd3-easy-money-wallpaper-preview.jpg",
+      "link": "/sneakers"
+    },
+    {
+      "id": 11,
+      "name": "Jordan",
+      "image1": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-7-trophy-room-wallpaper-preview.jpg",
+      "image2": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-1-low-mystic-navy-wallpaper-preview.jpg",
+      "link": "/boots"
+    },
+    {
+      "id": 12,
+      "name": "Sneakers",
+      "image1": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-1-brotherhood-wallpaper-preview.jpg",
+      "image2": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-1-lost-and-found-preview.jpg",
+      "link": "/sandals"
+    },
+    {
+      "id": 13,
+      "name": "Jordan",
+      "image1": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-7-trophy-room-wallpaper-preview.jpg",
+      "image2": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-1-low-mystic-navy-wallpaper-preview.jpg",
+      "link": "/boots"
+    },
+    {
+      "id": 14,
+      "name": "Sneakers",
+      "image1": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-1-brotherhood-wallpaper-preview.jpg",
+      "image2": "https://www.sneakerhdwallpapers.com/wallpapers/2022/air-jordan-1-lost-and-found-preview.jpg",
+      "link": "/sandals"
+    }
+    
+  ]
+  

@@ -1,0 +1,168 @@
+
+
+
+/* Apply the cool hover effect to the logo */
+.logo {
+  will-change: filter, transform; /* Add transform to enable the flip effect */
+  transition: filter 300ms, transform 300ms; /* Add transform transition */
+  color: #fff;
+}
+
+/* Apply the cool hover effect to the logo image */
+.logo img {
+  transition: transform 300ms; /* Transition for image element */
+}
+
+.logo img:hover {
+  transform: scaleX(-1); /* Flip the image horizontally on hover */
+}
+
+/* Apply the effect to the logo image when hovering on a specific element (e.g., the second link) */
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo img:hover {
+    transform: scaleX(-1); /* Flip the image horizontally on hover */
+  }
+}
+
+/* Apply hover styles to the icons when they are hovered */
+.menu-items a:hover, .user a:hover {
+  color: #0e0c0c; /* Change color on hover */
+  transform: scale(1.1); /* Scale up the icon on hover */
+  transition: color 300ms, transform 300ms; /* Add transitions for smooth effect */
+}
+
+/* Apply select styles to the icons when they are selected */
+.menu-items a.selected {
+  color: #110202; /* Change color for selected icons */
+  transform: scale(1.1); /* Scale up the selected icon */
+}
+
+/* Apply the effect to the logo image when hovering on a specific element (e.g., the second link) */
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo img:hover {
+    transform: scaleX(-1); /* Flip the image horizontally on hover */
+  }
+}
+.dark-light-mode-off{
+  color: #333;
+}
+
+.dark-light-mode-off:hover{
+  color: #111;
+  transform: scale(0.5);
+  transition: color 200ms, transform 200ms;
+  cursor: pointer;
+}
+.dark-light-mode-on{
+  color: #fff;
+}
+.dark-light-mode-on:hover{
+  color: #fff;
+  transform: scale(0.5);
+  transition: color 200ms, transform 200ms;
+  cursor: pointer;
+}
+
+/* Transition properties for smooth dark mode transition */
+body, .dark-mode, .contactNav, .navbar, .btn, h1, h2, h3, input[type="text"], input[type="password"], .container {
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s; /* Add or adjust transition properties as needed */
+}
+@media (max-width: 1115px) {
+  body.dark-mode .menu-items{
+  background-color: #474040;
+  color: #fff; 
+}
+body.dark-mode .menu-items:hover{
+  color: #fff;
+}
+
+}
+
+body.dark-mode {
+  background-color: #121212; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+body.dark-mode .content  p{
+  color: #fff;
+}
+body.dark-mode .content  h4{
+  color: #fff;
+}
+body.dark-mode .feed-prev p{
+  color: #fff;
+}
+
+/* Dark mode styles for links */
+body.dark-mode a {
+  color: #fff; /* Link color in dark mode */
+}
+
+body.dark-mode a:hover {
+  color: #fff; /* Link color in dark mode */
+}
+body.dark-mode .contactNav{
+  background-color: #333;
+  color: #fff;
+}
+body.dark-mode .categories-container {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark-mode .categories-container a{
+  background-color: #333;
+  color: #fff;
+}
+body.dark-mode .categories-container h3 a{
+  background-color: #333;
+  color: #fff;
+}
+/* Dark mode styles for the navbar */
+body.dark-mode .navbar  {
+  background-color: #333;
+  color: #fff;
+}
+body.dark-mode .footer{
+  background-color: #333;
+  color: #fff;
+}
+
+/* Dark mode styles for buttons */
+body.dark-mode .btn {
+  background-color: #f6f5f8; /* Button background color in dark mode */
+  color: #121212; /* Button text color in dark mode */
+}
+
+/* Dark mode styles for headings */
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 {
+  color: #fff; /* Heading text color in dark mode */
+}
+
+/* Dark mode styles for input fields */
+body.dark-mode input[type="text"], body.dark-mode input[type="password"] {
+  background-color: #333; /* Input field background color in dark mode */
+  color: #fff; /* Input text color in dark mode */
+  border-color: #BB86FC; /* Input border color in dark mode */
+}
+
+/* Dark mode styles for containers */
+body.dark-mode .container {
+  background-color: #1E1E1E; /* Container background color in dark mode */
+  color: #fff; /* Container text color in dark mode */
+  border: 1px solid #BB86FC; /* Container border color in dark mode */
+  box-shadow: 0 0 10px rgba(187, 134, 252, 0.5); /* Box shadow in dark mode */
+}
+
+/* Add more dark mode styles as needed */
+
+/* Dark mode styles for specific elements */
+body.dark-mode .special-element {
+  /* Define styles for specific elements in dark mode */
+}
+
+
+/* Global CSS or SCSS */
+[data-aos] {
+  transition: transform 0.8s ease, opacity 0.8s ease;
+}

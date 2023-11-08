@@ -1,0 +1,108 @@
+/* Responsive styles */
+.contactNav{
+ 
+    background-color: #888;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    transition: transform 0.3s ease; 
+  
+}
+
+
+
+.contact-container{
+  display: flex;
+  margin: auto;
+  width: clamp(50%, 700px, 90%);
+  height: min(50%, 300px);
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-form{
+  display: block;
+  margin: auto;
+  width: clamp(50%, 700px, 90%);
+  height: min(50%, 300px);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-form-fill{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#name, #phone, #message{
+  border: 1px solid #666;
+  flex: 1 0 140px;
+  color: #222;
+  background: transparent;
+}
+#name, #phone, #email, #message, :is(input){
+  background: transparent;
+  color: inherit;
+  border: 1px solid #666;
+  outline: none;
+  height: min(50%, 300px);
+  padding: 10px;
+}
+::placeholder{
+  font: 20px;
+  color: #fff;
+  font-weight: bold; 
+}
+
+#email{
+  color: #222;
+  border: 1px solid #666;
+  flex: 1 0 120px;
+  background: transparent;
+ 
+}
+
+#c-button{
+  flex: 1 0 60px;
+  background: #222;
+  color: #fff;
+  width: 100px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.contact-links a{
+ 
+  display: flex;
+  margin: auto;
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+    .contact-links a {
+      display: block; /* Display links in a column */
+      margin: 10px; /* Add spacing between links */
+      padding: 5px;
+    }
+    .contact-container{
+      display: block;
+      margin: auto;
+      width: clamp(50%, 700px, 90%);
+      height: min(50%, 300px);
+      align-items: center;
+      justify-content: space-between;
+    }
+
+  }
+  
+  /* Additional styling can be added to suit your design. */
+  

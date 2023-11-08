@@ -1,0 +1,29 @@
+.categories-container{
+    display: block;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    min-height: 90vh;
+    height: 110vh;
+    width: 100%;
+    background: hsl(0, 0%, 100%);
+}
+
+.categories-container h3 a{
+    text-decoration: none;
+    color: #444;
+    margin-left: 10px; 
+}
+
+
+
+
+  
+ 
+  
+
+  
+ 
+  

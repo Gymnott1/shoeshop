@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "Product 1",
+    "image": "https://www.sneakerhdwallpapers.com/wallpapers/2023/jordan-1-craft-celadon-wallpaper-preview.jpg",
+    "price": 49.99,
+    "discount": 10.00,
+    "discountPercentage": 20,
+    "inStock": true,
+    "offer": true
+    
+  },
+  {
+    "id": 2,
+    "name": "Product 2",
+    "image": "https://www.sneakerhdwallpapers.com/wallpapers/2023/jordan-1-craft-celadon-wallpaper-preview.jpg",
+    "price": 29.99,
+    "discount": 5.00,
+    "discountPercentage": 10,
+    "inStock": true,
+    "offer": true
+    
+  },
+  {
+    "id": 3,
+    "name": "Product 3",
+    "image": "https://www.sneakerhdwallpapers.com/wallpapers/2023/jordan-1-craft-celadon-wallpaper-preview.jpg",
+    "price": 79.99,
+    "discount": 15.00,
+    "discountPercentage": 15,
+    "inStock": false,
+    "offer": true
+    
+  },
+  {
+    "id": 4,
+    "name": "New Product 1",
+    "image": "https://www.sneakerhdwallpapers.com/wallpapers/2023/jordan-1-craft-celadon-wallpaper-preview.jpg",
+    "price": 59.99,
+    "inStock": true,
+    "offer": false
+    
+  },
+  {
+    "id": 5,
+    "name": "New Product 2",
+    "image": "https://www.sneakerhdwallpapers.com/wallpapers/2023/jordan-1-craft-celadon-wallpaper-preview.jpg",
+    "price": 39.99,
+    "inStock": true,
+    "offer": false
+    
+  }
+]

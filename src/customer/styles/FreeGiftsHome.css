@@ -1,0 +1,129 @@
+.FreeGiftsHome-container{
+  display: block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  border-bottom: 1px solid #888;
+  border-top: 1px solid #888;
+  min-height: 90vh;
+  background: linear-gradient(135deg, #a53e3e, #dbdbdd);
+  background-attachment: fixed; /* Keep the image fixed while animating */
+  
+  /* Background image */
+  background-image: url('https://wallpapercave.com/dwp1x/wp4021002.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 110% 120%;
+  
+  /* Animation for the gradient */
+  animation: gradientAnimation 10s linear infinite;
+  object-fit: cover;
+}
+
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .FreeGiftsHome-container {
+    background: linear-gradient(135deg, #a53e3e, #dbdbdd);
+    background-attachment: fixed;
+    background-image: url('https://wallpapercave.com/dwp1x/wp4021002.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover; /* Adjusted for smaller screens */
+    animation: gradientAnimation 10s linear infinite;
+    
+  }
+}
+
+.freeGifts{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ align-content: center;
+ flex-wrap: wrap;
+}
+.gift-content{
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 140px;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.img-gift{
+  height: 200px; 
+  display: flex;
+  background: transparent;
+ box-shadow:  10px 8px 6px red;
+ animation: zoom-in 10s linear infinite;
+}
+
+
+
+.freeGifts h2 a, p{
+  color: white;
+  font: 14px;
+
+}
+.lipa-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10px;
+  
+}
+
+.lipapolepole, .howtoOrder{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.lipapolepole p{
+  font-size: 20px;
+  font-family: serif;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 60px;
+}
+
+@media (max-width: 700px) {
+  .lipa-container{
+    display: block;
+    flex-direction: column;
+
+  }
+  .gift-content{
+    display: block;
+    flex-direction: column;
+   
+  }
+  .freeGifts  p{
+    color: white;
+    font-size: 16px;
+  
+  }
+  .lipapolepole p{
+    flex: 1 0 60px;
+    font-size: 16px;
+  }
+  .lipapolepole {
+    flex: 1 0 100px;
+    display: flex;
+    flex-direction: column;
+    overflow: wrap;
+
+  }
+}
